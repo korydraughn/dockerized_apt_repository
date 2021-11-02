@@ -1,0 +1,5 @@
+Label: Local APT repository
+Codename: bionic
+Architectures: amd64
+Components: main
+Description: Local APT repository for development

@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+    local_apt_repo:
+        build:
+            context: .
+        ports:
+            - "9000:80"
+        volumes:
+            - "/home/kory/dev/prog/cpp/build_irods_rest_cpp:/packages_to_import:ro"
